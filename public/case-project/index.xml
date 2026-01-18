@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Case-Projects on Lisa&#39;s Profile</title>
+    <link>http://localhost:1313/case-project/</link>
+    <description>Recent content in Case-Projects on Lisa&#39;s Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/case-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Time Journal: Automated Personal Informatics via Google Calendar</title>
+      <link>http://localhost:1313/case-project/time-journal/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-project/time-journal/</guid>
+      <description>A Python-based analytics tool that synchronizes with Google Calendar API to visualize weekly time allocation through data visualization.</description>
+    </item>
+    <item>
+      <title>Palazzetto Gamification: Empowering Heritage Through Gamified Experiences</title>
+      <link>http://localhost:1313/case-project/palazzetto-gamification/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-project/palazzetto-gamification/</guid>
+      <description>A cross-cultural service design project creating a scavenger hunt experience to drive crowdfunding for the restoration of a historic Italian palazzo.</description>
+    </item>
+    <item>
+      <title>The Annoying Alarm</title>
+      <link>http://localhost:1313/case-project/annoying-alarm/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-project/annoying-alarm/</guid>
+      <description>A Raspberry Pi-based innovative alarm system that forces cognitive and physical engagement through modular Python architecture and sensor fusion.</description>
+    </item>
+    <item>
+      <title>Mindfulness Diary: A Flutter-based Digital Intervention</title>
+      <link>http://localhost:1313/case-project/mindfulness-tracker-app/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-project/mindfulness-tracker-app/</guid>
+      <description>An interdisciplinary project merging psychological theories with Flutter development to help users track emotional fluctuations through guided meditation.</description>
+    </item>
+    <item>
+      <title>Music Producer Gadget</title>
+      <link>http://localhost:1313/case-project/music-producer-gadget/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-project/music-producer-gadget/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/#projects&#34;&gt;← Back to Projects&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-project-overview&#34;&gt;1. Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;Inspired by rhythm games like &lt;em&gt;Deemo&lt;/em&gt; and &lt;em&gt;Cytus&lt;/em&gt;, our team physicalized the experience into a custom-built gaming device. The machine features an &lt;strong&gt;8x12 LED matrix&lt;/strong&gt; that displays falling notes. Players must strike physical buttons at the precise moment to trigger the corresponding frequency from a speaker, effectively &amp;ldquo;performing&amp;rdquo; a musical piece.&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-technical-challenge-the-48x-memory-optimization&#34;&gt;2. Technical Challenge: The 48x Memory Optimization&lt;/h2&gt;&#xA;&lt;p&gt;The most significant challenge was fitting four distinct songs into the &lt;strong&gt;PIC18 microcontroller&lt;/strong&gt;, which has a limited &lt;strong&gt;RAM of only 1536 bytes&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Multilingual Chat App for Caregivers</title>
+      <link>http://localhost:1313/case-project/chat-app/</link>
+      <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-project/chat-app/</guid>
+      <description>&lt;h3 id=&#34;1-the-challenge&#34;&gt;1. The Challenge&lt;/h3&gt;&#xA;&lt;p&gt;In aging societies, international caregivers often face significant language barriers with elderly patients and their families. While general messaging apps exist, they lack integrated, low-friction translation tools tailored for elderly users and specific dialects like Taiwanese.&lt;/p&gt;&#xA;&lt;h3 id=&#34;2-my-solution&#34;&gt;2. My Solution&lt;/h3&gt;&#xA;&lt;p&gt;I developed a cross-platform chat application using &lt;strong&gt;Flutter&lt;/strong&gt; that integrates real-time translation and voice synthesis.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Dual-Language Interface:&lt;/strong&gt; Users receive messages automatically translated into their native language (Mandarin, Taiwanese, Indonesian, or English).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Voice Integration:&lt;/strong&gt; Supports Speech-to-Text (STT) and Text-to-Speech (TTS) to assist elderly users who may have difficulty reading or typing.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-technical-implementation&#34;&gt;3. Technical Implementation&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; Built with Flutter (Dart) for a responsive and accessible UI.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backend:&lt;/strong&gt; Designed a &lt;strong&gt;MySQL&lt;/strong&gt; database and implemented &lt;strong&gt;PHP&lt;/strong&gt; APIs to manage real-time messaging and user data.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;API Integration:&lt;/strong&gt; Integrated specialized Translation, STT, and TTS modules (developed by research lab) to handle multi-dialect conversion.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Modular Architecture:&lt;/strong&gt; Focused on creating reusable code modules for translation services to ensure system scalability.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;4-reflection--impact&#34;&gt;4. Reflection &amp;amp; Impact&lt;/h3&gt;&#xA;&lt;p&gt;Through this project, I managed the full development lifecycle from database schema design to UI/UX implementation. Although formal user testing is pending, the project explores the critical intersection of language technology and inclusive design—a core interest of mine in the HCI field.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yongle Market: Human-Centered Vendor Workflow Redesign</title>
+      <link>http://localhost:1313/case-project/yongle-market-redesign/</link>
+      <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-project/yongle-market-redesign/</guid>
+      <description>&lt;h2 id=&#34;1-project-overview&#34;&gt;1. Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project explores the intersection of &lt;strong&gt;Digital Transformation&lt;/strong&gt; and &lt;strong&gt;Traditional Heritage&lt;/strong&gt;. Our goal was to design a conceptual device for noodle stall owners in the historic Yongle Market, enabling them to easily recall customers&amp;rsquo; flavor preferences and personal stories, thereby deepening the unique social bond found in traditional markets.&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-my-role-synthesis-lead--facilitator&#34;&gt;2. My Role: Synthesis Lead &amp;amp; Facilitator&lt;/h2&gt;&#xA;&lt;p&gt;I served as the &lt;strong&gt;Synthesis Lead&lt;/strong&gt; and &lt;strong&gt;Process Facilitator&lt;/strong&gt;. My primary contribution was:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal Informatics on Lisa&#39;s Profile</title>
+    <link>http://localhost:1313/tags/personal-informatics/</link>
+    <description>Recent content in Personal Informatics on Lisa&#39;s Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/personal-informatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Time Journal: Automated Personal Informatics via Google Calendar</title>
+      <link>http://localhost:1313/case-project/time-journal/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-project/time-journal/</guid>
+      <description>A Python-based analytics tool that synchronizes with Google Calendar API to visualize weekly time allocation through data visualization.</description>
+    </item>
+  </channel>
+</rss>

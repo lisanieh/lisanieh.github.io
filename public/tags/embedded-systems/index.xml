@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Embedded Systems on Lisa&#39;s Profile</title>
+    <link>http://localhost:1313/tags/embedded-systems/</link>
+    <description>Recent content in Embedded Systems on Lisa&#39;s Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/embedded-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music Producer Gadget</title>
+      <link>http://localhost:1313/case-project/music-producer-gadget/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-project/music-producer-gadget/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/#projects&#34;&gt;← Back to Projects&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-project-overview&#34;&gt;1. Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;Inspired by rhythm games like &lt;em&gt;Deemo&lt;/em&gt; and &lt;em&gt;Cytus&lt;/em&gt;, our team physicalized the experience into a custom-built gaming device. The machine features an &lt;strong&gt;8x12 LED matrix&lt;/strong&gt; that displays falling notes. Players must strike physical buttons at the precise moment to trigger the corresponding frequency from a speaker, effectively &amp;ldquo;performing&amp;rdquo; a musical piece.&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-technical-challenge-the-48x-memory-optimization&#34;&gt;2. Technical Challenge: The 48x Memory Optimization&lt;/h2&gt;&#xA;&lt;p&gt;The most significant challenge was fitting four distinct songs into the &lt;strong&gt;PIC18 microcontroller&lt;/strong&gt;, which has a limited &lt;strong&gt;RAM of only 1536 bytes&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

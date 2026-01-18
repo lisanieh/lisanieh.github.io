@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API Integration on Lisa&#39;s Profile</title>
+    <link>http://localhost:1313/tags/api-integration/</link>
+    <description>Recent content in API Integration on Lisa&#39;s Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/api-integration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Time Journal: Automated Personal Informatics via Google Calendar</title>
+      <link>http://localhost:1313/case-project/time-journal/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-project/time-journal/</guid>
+      <description>A Python-based analytics tool that synchronizes with Google Calendar API to visualize weekly time allocation through data visualization.</description>
+    </item>
+    <item>
+      <title>Multilingual Chat App for Caregivers</title>
+      <link>http://localhost:1313/case-project/chat-app/</link>
+      <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-project/chat-app/</guid>
+      <description>&lt;h3 id=&#34;1-the-challenge&#34;&gt;1. The Challenge&lt;/h3&gt;&#xA;&lt;p&gt;In aging societies, international caregivers often face significant language barriers with elderly patients and their families. While general messaging apps exist, they lack integrated, low-friction translation tools tailored for elderly users and specific dialects like Taiwanese.&lt;/p&gt;&#xA;&lt;h3 id=&#34;2-my-solution&#34;&gt;2. My Solution&lt;/h3&gt;&#xA;&lt;p&gt;I developed a cross-platform chat application using &lt;strong&gt;Flutter&lt;/strong&gt; that integrates real-time translation and voice synthesis.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Dual-Language Interface:&lt;/strong&gt; Users receive messages automatically translated into their native language (Mandarin, Taiwanese, Indonesian, or English).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Voice Integration:&lt;/strong&gt; Supports Speech-to-Text (STT) and Text-to-Speech (TTS) to assist elderly users who may have difficulty reading or typing.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-technical-implementation&#34;&gt;3. Technical Implementation&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; Built with Flutter (Dart) for a responsive and accessible UI.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backend:&lt;/strong&gt; Designed a &lt;strong&gt;MySQL&lt;/strong&gt; database and implemented &lt;strong&gt;PHP&lt;/strong&gt; APIs to manage real-time messaging and user data.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;API Integration:&lt;/strong&gt; Integrated specialized Translation, STT, and TTS modules (developed by research lab) to handle multi-dialect conversion.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Modular Architecture:&lt;/strong&gt; Focused on creating reusable code modules for translation services to ensure system scalability.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;4-reflection--impact&#34;&gt;4. Reflection &amp;amp; Impact&lt;/h3&gt;&#xA;&lt;p&gt;Through this project, I managed the full development lifecycle from database schema design to UI/UX implementation. Although formal user testing is pending, the project explores the critical intersection of language technology and inclusive design—a core interest of mine in the HCI field.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

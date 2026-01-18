@@ -1,0 +1,493 @@
+baseURL: "https://lisanieh.github.io/"
+languageCode: "en-us"
+title: "Lisa's Profile"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Menus:
+#   main:
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Lisa's Profile"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Lisa's Profile" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Lisa Nieh."
+    subtitle: "I want to bridge the gap between sound and HCI"
+    content: "An interactive computing enthusiast who leverages auditory feedback and sensory design to build multisensory experiences that feel natural and function meaningfully."
+    # image: /images/me.png
+    # bottomImage:
+    #   enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Curriculum Vitae"
+      url: "/CV overall.pdf"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/lisanieh
+        # - icon: fab fa-x-twitter
+          # url: https://example.com
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.png"
+    content: |-
+      I am an interactive computing enthusiast with a passion for audio-centered HCI. I have a background in computer science and music performance, and I am deeply interested in the intersection of auditory perception and human-computer interaction. My work focuses on transforming sound from an aesthetic layer into an intuitive, meaningful medium for information and emotion.
+
+      I am currently exploring how to design multisensory and assistive technologies that enhance situational awareness and accessibility in mobile environments.
+    skills:
+      enable: true
+      title: "Here are a few technologies and skills I've been working with recently:"
+      items:
+        - "App Design"
+        - "UX Design & Thinking"
+        - "Sensory Processing"
+        - "Python & C"
+        - "Data Structures"
+        - "Algorithms"
+
+  # Experience
+  experience:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - company: "Facebook"
+        companyUrl: "https://example.com"
+        jobs:
+          - name: "Senior Software Developer"
+            date: "Jan 2023 - present"
+            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+            info:
+              content: Working as a senior software developer
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: fa-brands fa-react
+                  url: https://react.dev/
+                  tooltip: Example tooltip content
+                - icon: fab fa-x-twitter
+                  url: https://example.com
+                  # tooltip: Example tooltip content
+              customIcons:
+                - icon: /fav.png
+                  url: "https://example.com"
+                  tooltip: Example tooltip content
+          - name: "Software Developer"
+            date: "Jan 2022 - Dec 2023"
+            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
+
+      - company: "Amazon"
+        companyUrl: "https://example.com"
+        jobs:
+          - name: "Software Developer"
+            date: "Sep 2020 - Dec 2021"
+            info:
+              content: I worked as a software developer for more than one year in Amazon.
+            content: |
+              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+              - Lead backend developer for a product.
+              - Created a frontend design for a product.
+
+      - company: "Apple"
+        companyUrl: "https://example.com"
+        jobs: 
+        - name: "Junior Software Developer"
+          date: "Jan 2020 - Aug 2020"
+          featuredItems:
+            fontAwesomeIcons:
+              - icon: fa-brands fa-react
+                url: https://react.dev/
+              - icon: fab fa-x-twitter
+                url: https://example.com
+            customIcons:
+              - icon: /fav.png
+                url: "https://example.com"
+          content: |
+            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+            - Lead backend developer for a product.
+            - Created a frontend design for a product.
+
+      - company: "Netflix"
+        companyUrl: "https://example.com"
+        jobs:
+        - name: "UI/UX Designer"
+          date: "June 2017 - Nov 2019"
+          content: |
+            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+            - Lead backend developer for a product.
+            - Created a frontend design for a product.
+
+      - company: "Google"
+        companyUrl: "https://example.com"
+        jobs:
+        - name: "Product Designer"
+          date: "Feb 2016 - Mar 2017"
+          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Bachelor of Science in Computer Science"
+        school:
+          name: "National Cheng Kung University"
+          url: "https://web.ncku.edu.tw/index.php?Lang=en"
+        date: "2021 - 2025"
+        GPA: "4.02 out of 4.3"
+        content: |-
+          Extracurricular Activities
+            - Completed a semester of academic exchange at the University of Tampere, Finland.
+            - Served as a Language Partner for the U.S. Department of State’s Critical Language Scholarship (CLS) Program.
+            - Completed the Interdisciplinary Credit Program in Aesthetics and Art at National Cheng Kung University.
+        # featuredLink:
+        #   enable: true
+        #   name: "My academic record"
+        #   url: "https://example.com"
+      - title: "High School"
+        school:
+          name: "Taipei First Girls High School"
+          url: "https://www.fg.tp.edu.tw/about/school-profile/"
+        date: "2018 - 2021"
+        # GPA: "4.2 out of 5.0"
+        content: |-
+          Extracurricular Activities
+            - Joined the music compose club and held many performances.
+            - Received the Superintendent's Award upon graduation.
+        # featuredLink:
+        #   enable: true
+        #   url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+        image: /images/achievement.jpg
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+        image: /images/achievement.jpg
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/achievement.jpg
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Multilingual Chat App for Caregivers
+        content: A Flutter-based chat application facilitating communication between international caregivers and elderly patients through real-time translation and voice synthesis.
+        image: /images/projects/chat-app-cover.png
+        featured:
+          name: View Case Study
+          link: /case-project/chat-app
+        badges:
+          - "Flutter"
+          - "MySQL"
+          - "API Integration"
+        date: "2023"
+        links:
+          - icon: fas fa-video
+            url: https://drive.google.com/file/d/1lEJnk06stj3_KmzntmlpYMk-2CR_lip1/view?usp=sharing
+        
+      - title: Music Producer Gadget
+        content: A physical rhythm game device built with PIC18, featuring real-time LED synchronization and memory-optimized music synthesis.
+        image: /images/projects/music-gadget-cover.png
+        featured:
+          name: View Case Study
+          link: /case-project/music-producer-gadget
+        badges:
+          - "Embedded Systems"
+          - "PIC18 Microcontroller"
+          - "Data Optimization"
+        links:
+            - icon: fab fa-github
+              url: https://github.com/mambahuang/Music-Producer
+            - icon: fas fa-video
+              url: https://drive.google.com/file/d/1DjPeFfj8U3tbw9q9dmrDQhqycnIY_2EE/view?usp=sharing
+
+      - title: "Yongle Market: Human-Centered Vendor Workflow Redesign"
+        content: A digital transformation concept for traditional market vendors, focusing on strengthening interpersonal bonds through Design Thinking and Ethnographic research.
+        image: /images/projects/yongle-cover.png
+        featured:
+          name: View Case Study
+          link: /case-project/yongle-market-redesign
+        badges:
+          - "User Research"
+          - "Design Thinking"
+          - "Service Design"
+          - "Ethnography"
+        links:
+            - icon: fas fa-file-powerpoint
+              url: https://www.canva.com/design/DAG-NjU5q6w/NnA9mbHo9_JzHe0zliyiIA/edit?utm_content=DAG-NjU5q6w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+      - title: The Annoying Alarm
+        content: A Raspberry Pi-based innovative alarm system that forces cognitive and physical engagement through modular Python architecture and sensor fusion.
+        image: /images/projects/alarm-cover.png
+        featured:
+          name: View Case Study
+          link: /case-project/annoying-alarm
+        badges:
+          - "Physical Computing"
+          - "Raspberry Pi"
+          - "Python"
+          - "Interaction Design"
+        date: "2024-07-24"
+        links:
+          - icon: fas fa-video
+            url: https://drive.google.com/file/d/1wle76kpLxmXtH850n6kfuWy3aTs20VWN/view?usp=sharing
+          - icon: fab fa-github
+            url: https://github.com/lisanieh/AnnoyingAlarm.git
+
+      - title: "Palazzetto Gamification: Empowering Heritage Through Gamified Experiences"
+        content: A cross-cultural service design project creating a scavenger hunt experience to drive crowdfunding for the restoration of a historic Italian palazzo.
+        image: /images/projects/palazzetto-cover.png
+        featured:
+          name: View Case Study
+          link: /case-project/palazzetto-gamification
+        badges:
+          - "Gamification"
+          - "Service Design"
+          - "Octalysis Framework"
+          - "Crowdfunding Strategy"
+        date: 2025-03-20
+        links:
+            - icon: fas fa-file-powerpoint
+              url: https://drive.google.com/file/d/15Gdg2iEinzqwxI1DE8tP9-Q6232Ty3To/view?usp=sharing
+            - icon: fa-regular fa-file-word
+              url: https://drive.google.com/file/d/1jjJC0ptahre6SBjXI6jwuOKdWuTDzwKV/view?usp=sharing
+
+      - title: "Mindfulness Diary: A Flutter-based Digital Intervention"
+        content: "An interdisciplinary project merging psychological theories with Flutter development to help users track emotional fluctuations through guided meditation."
+        image: "images/projects/meditation-cover.png"
+        featured:
+          name: View Case Study
+          link: /case-project/mindfulness-tracker-app
+        badges:
+          - "Flutter"
+          - "HCI for Mental Health"
+          - "Data Visualization"
+          - "Psychology"
+        date: 2024-07-14
+        links:
+            - icon: fab fa-github
+              url: https://github.com/lisanieh/MindTrackerApp.git
+
+      - title: "Time Journal: Automated Personal Informatics via Google Calendar"
+        content: "A Python-based analytics tool that synchronizes with Google Calendar API to visualize weekly time allocation through data visualization."
+        image: "images/projects/timejournal-cover.png"
+        featured:
+          name: View Case Study
+          link: /case-project/time-journal
+        badges:
+          - "Python"
+          - "API Integration"
+          - "Data Visualization"
+          - "Personal Informatics"
+        date: 2025-12-31
+        links:
+            - icon: fab fa-github
+              url: https://github.com/lisanieh/TimeJournalAutomator
+
+  #Contact
+  contact:
+    enable: false
+    # title: "Custom Name"
+    content: Feel free to mail me if you have any questions or just want to say hi!
+    btnName: Mail me
+    btnLink: lisa.nieh.an@gmail.com
+    formspree:
+      enable: true # `contact.email` value will be ignored
+      formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+      emailCaption: "Enter your email address"
+      messageCaption: "Enter your message here"
+      messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/lisanieh
+      linkedin: https://www.linkedin.com/in/lisa-nieh-b261ab3a0/
+      # twitter: https://twitter.com
+      # instagram: https://instagram.com
+      # facebook: https://facebook.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: false
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
