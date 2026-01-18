@@ -151,6 +151,9 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/lisanieh
+        - icon: fa-brands fa-linkedin
+          url: https://www.linkedin.com/in/lisa-nieh-b261ab3a0/
+          # tooltip: Example tooltip content
         # - icon: fab fa-x-twitter
           # url: https://example.com
       # customIcons:
@@ -163,12 +166,12 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am an interactive computing enthusiast with a passion for audio-centered HCI. I have a background in computer science and music performance, and I am deeply interested in the intersection of auditory perception and human-computer interaction. My work focuses on transforming sound from an aesthetic layer into an intuitive, meaningful medium for information and emotion.
+      I am an interactive computing enthusiast with a passion for audio-centered HCI. I have a background in computer science and music performance, and I am deeply interested in the intersection of auditory perception and human-computer interaction. I want to work on transforming sound from an aesthetic layer into an intuitive, meaningful medium for information and emotion.
 
-      I am currently exploring how to design multisensory and assistive technologies that enhance situational awareness and accessibility in mobile environments.
+      I am looking forward to exploring how to design multisensory and assistive technologies that enhance situational awareness and accessibility in mobile environments.
     skills:
       enable: true
-      title: "Here are a few technologies and skills I've been working with recently:"
+      title: "Here are a few skills I have:"
       items:
         - "App Design"
         - "UX Design & Thinking"
@@ -346,7 +349,7 @@ params:
           - "Data Optimization"
         links:
             - icon: fab fa-github
-              url: https://github.com/mambahuang/Music-Producer
+              url: https://github.com/lisanieh/MusicProducer
             - icon: fas fa-video
               url: https://drive.google.com/file/d/1DjPeFfj8U3tbw9q9dmrDQhqycnIY_2EE/view?usp=sharing
 
