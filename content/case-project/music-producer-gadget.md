@@ -10,8 +10,6 @@ tags:
   - "Data Optimization"
 ---
 
-[← Back to Projects](/#projects)
-
 ## 1. Project Overview
 Inspired by rhythm games like *Deemo* and *Cytus*, our team physicalized the experience into a custom-built gaming device. The machine features an **8x12 LED matrix** that displays falling notes. Players must strike physical buttons at the precise moment to trigger the corresponding frequency from a speaker, effectively "performing" a musical piece.
 
